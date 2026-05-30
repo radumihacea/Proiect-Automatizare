@@ -29,11 +29,6 @@ The project explores multiple control design methodologies, progressively moving
 * **MATLAB / Simulink:** Used for transfer function modeling, Bode plot analysis, step/ramp response simulations, and controller tuning.
 * **Control Theory:** Classical control, frequency response, time-domain analysis, dead-time compensation.
 
-## 📂 Repository Structure (Suggested)
-* `/docs` - Project documentation, mathematical derivations, and presentation slides.
-* `/src` - MATLAB `.m` scripts for calculating controller parameters and generating Bode plots.
-* `/simulink` - `.slx` files containing the block diagrams for open-loop, closed-loop, cascade, and Smith Predictor simulations.
-
 ## 📈 Key Results
 * Successfully simplified theoretical ideal controllers into implementable, industry-standard **PID controllers** with first-order filters.
 * Demonstrated the superiority of **Cascade Control** for rapid disturbance rejection.
